@@ -1,232 +1,231 @@
+:root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+    --saree-burgundy: #8B1538;
+    --saree-burgundy-light: #A61E42;
+    --saree-burgundy-dark: #6B1028;
+    --saree-gold: #DAA520;
+    --saree-gold-light: #F4D03F;
+    --saree-rose: #C95D7A;
+    --saree-cream: #F8E7C9;
+}
 
-        :root {
-            --background: 0 0% 100%;
-            --foreground: 222.2 84% 4.9%;
-            --card: 0 0% 100%;
-            --card-foreground: 222.2 84% 4.9%;
-            --popover: 0 0% 100%;
-            --popover-foreground: 222.2 84% 4.9%;
-            --primary: 222.2 47.4% 11.2%;
-            --primary-foreground: 210 40% 98%;
-            --secondary: 210 40% 96.1%;
-            --secondary-foreground: 222.2 47.4% 11.2%;
-            --muted: 210 40% 96.1%;
-            --muted-foreground: 215.4 16.3% 46.9%;
-            --accent: 210 40% 96.1%;
-            --accent-foreground: 222.2 47.4% 11.2%;
-            --destructive: 0 84.2% 60.2%;
-            --destructive-foreground: 210 40% 98%;
-            --border: 214.3 31.8% 91.4%;
-            --input: 214.3 31.8% 91.4%;
-            --ring: 222.2 84% 4.9%;
-            --radius: 0.5rem;
-            --sidebar-background: 0 0% 98%;
-            --sidebar-foreground: 240 5.3% 26.1%;
-            --sidebar-primary: 240 5.9% 10%;
-            --sidebar-primary-foreground: 0 0% 98%;
-            --sidebar-accent: 240 4.8% 95.9%;
-            --sidebar-accent-foreground: 240 5.9% 10%;
-            --sidebar-border: 220 13% 91%;
-            --sidebar-ring: 217.2 91.2% 59.8%;
-            --saree-burgundy: #8B1538;
-            --saree-burgundy-light: #A61E42;
-            --saree-burgundy-dark: #6B1028;
-            --saree-gold: #DAA520;
-            --saree-gold-light: #F4D03F;
-            --saree-rose: #C95D7A;
-            --saree-cream: #F8E7C9;
-        }
+.dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+}
 
-        .dark {
-            --background: 222.2 84% 4.9%;
-            --foreground: 210 40% 98%;
-            --card: 222.2 84% 4.9%;
-            --card-foreground: 210 40% 98%;
-            --popover: 222.2 84% 4.9%;
-            --popover-foreground: 210 40% 98%;
-            --primary: 210 40% 98%;
-            --primary-foreground: 222.2 47.4% 11.2%;
-            --secondary: 217.2 32.6% 17.5%;
-            --secondary-foreground: 210 40% 98%;
-            --muted: 217.2 32.6% 17.5%;
-            --muted-foreground: 215 20.2% 65.1%;
-            --accent: 217.2 32.6% 17.5%;
-            --accent-foreground: 210 40% 98%;
-            --destructive: 0 62.8% 30.6%;
-            --destructive-foreground: 210 40% 98%;
-            --border: 217.2 32.6% 17.5%;
-            --input: 217.2 32.6% 17.5%;
-            --ring: 212.7 26.8% 83.9%;
-            --sidebar-background: 240 5.9% 10%;
-            --sidebar-foreground: 240 4.8% 95.9%;
-            --sidebar-primary: 224.3 76.3% 48%;
-            --sidebar-primary-foreground: 0 0% 100%;
-            --sidebar-accent: 240 3.7% 15.9%;
-            --sidebar-accent-foreground: 240 4.8% 95.9%;
-            --sidebar-border: 240 3.7% 15.9%;
-            --sidebar-ring: 217.2 91.2% 59.8%;
-        }
+* {
+    border-color: hsl(var(--border));
+}
 
-        * {
-            border-color: hsl(var(--border));
-        }
+body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Inter', sans-serif;
+}
 
-        body {
-            background-color: hsl(var(--background));
-            color: hsl(var(--foreground));
-            font-family: 'Inter', sans-serif;
-        }
+.bg-saree-gradient {
+    background: linear-gradient(135deg, #8B1538 0%, #A61E42 50%, #6B1028 100%);
+}
 
-        .bg-saree-gradient {
-            background: linear-gradient(135deg, #8B1538 0%, #A61E42 50%, #6B1028 100%);
-        }
+.bg-gold-gradient {
+    background: linear-gradient(135deg, #DAA520 0%, #F4D03F 100%);
+}
 
-        .bg-gold-gradient {
-            background: linear-gradient(135deg, #DAA520 0%, #F4D03F 100%);
-        }
+.text-gradient {
+    background: linear-gradient(135deg, #DAA520 0%, #F4D03F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
 
-        .text-gradient {
-            background: linear-gradient(135deg, #DAA520 0%, #F4D03F 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
+.shimmer-effect {
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    background-size: 200% 100%;
+}
 
-        .shimmer-effect {
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
-            background-size: 200% 100%;
-        }
+/* Custom styles from original React component */
+.bg-saree-burgundy {
+    background-color: var(--saree-burgundy);
+}
 
-        /* Custom styles from original React component */
-        .bg-saree-burgundy {
-            background-color: var(--saree-burgundy);
-        }
+.bg-saree-burgundy-light {
+    background-color: var(--saree-burgundy-light);
+}
 
-        .bg-saree-burgundy-light {
-            background-color: var(--saree-burgundy-light);
-        }
+.bg-saree-burgundy-dark {
+    background-color: var(--saree-burgundy-dark);
+}
 
-        .bg-saree-burgundy-dark {
-            background-color: var(--saree-burgundy-dark);
-        }
+.bg-saree-gold {
+    background-color: var(--saree-gold);
+}
 
-        .bg-saree-gold {
-            background-color: var(--saree-gold);
-        }
+.bg-saree-gold-light {
+    background-color: var(--saree-gold-light);
+}
 
-        .bg-saree-gold-light {
-            background-color: var(--saree-gold-light);
-        }
+.bg-saree-rose {
+    background-color: var(--saree-rose);
+}
 
-        .bg-saree-rose {
-            background-color: var(--saree-rose);
-        }
+.bg-saree-cream {
+    background-color: var(--saree-cream);
+}
 
-        .bg-saree-cream {
-            background-color: var(--saree-cream);
-        }
+.text-saree-gold {
+    color: var(--saree-gold);
+}
 
-        .text-saree-gold {
-            color: var(--saree-gold);
-        }
+.text-saree-gold-light {
+    color: var(--saree-gold-light);
+}
 
-        .text-saree-gold-light {
-            color: var(--saree-gold-light);
-        }
+.text-saree-rose {
+    color: var(--saree-rose);
+}
 
-        .text-saree-rose {
-            color: var(--saree-rose);
-        }
+.text-saree-cream {
+    color: var(--saree-cream);
+}
 
-        .text-saree-cream {
-            color: var(--saree-cream);
-        }
+.animate-float {
+    animation: float 6s ease-in-out infinite;
+}
 
-        .animate-float {
-            animation: float 6s ease-in-out infinite;
-        }
+.animate-fade-in {
+    animation: fadeIn 1s ease-out forwards;
+}
 
-        .animate-fade-in {
-            animation: fadeIn 1s ease-out forwards;
-        }
+.animate-pulse-slow {
+    animation: pulse 3s ease-in-out infinite;
+}
 
-        .animate-pulse-slow {
-            animation: pulse 3s ease-in-out infinite;
-        }
+@keyframes float {
 
-        @keyframes float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
 
-            0%,
-            100% {
-                transform: translateY(0);
-            }
+    50% {
+        transform: translateY(-20px);
+    }
+}
 
-            50% {
-                transform: translateY(-20px);
-            }
-        }
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
 
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(10px);
-            }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+@keyframes pulse {
 
-        @keyframes pulse {
+    0%,
+    100% {
+        opacity: 1;
+    }
 
-            0%,
-            100% {
-                opacity: 1;
-            }
+    50% {
+        opacity: 0.7;
+    }
+}
 
-            50% {
-                opacity: 0.7;
-            }
-        }
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+}
 
-        .font-playfair {
-            font-family: 'Playfair Display', serif;
-        }
+/* Ensure backdrop-blur compatibility */
+.backdrop-blur-md {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
 
-        /* Ensure backdrop-blur compatibility */
-        .backdrop-blur-md {
-            backdrop-filter: blur(8px);
-            -webkit-backdrop-filter: blur(8px);
-        }
+.backdrop-blur-sm {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
 
-        .backdrop-blur-sm {
-            backdrop-filter: blur(4px);
-            -webkit-backdrop-filter: blur(4px);
-        }
+/* Gradient classes for social links */
+.bg-gradient-to-r.from-purple-500.to-pink-500 {
+    background: linear-gradient(to right, #a855f7, #ec4899);
+}
 
-        /* Gradient classes for social links */
-        .bg-gradient-to-r.from-purple-500.to-pink-500 {
-            background: linear-gradient(to right, #a855f7, #ec4899);
-        }
+.bg-gradient-to-r.from-blue-600.to-blue-700 {
+    background: linear-gradient(to right, #2563eb, #1e40af);
+}
 
-        .bg-gradient-to-r.from-blue-600.to-blue-700 {
-            background: linear-gradient(to right, #2563eb, #1e40af);
-        }
+.bg-gradient-to-r.from-red-500.to-red-600 {
+    background: linear-gradient(to right, #ef4444, #dc2626);
+}
 
-        .bg-gradient-to-r.from-red-500.to-red-600 {
-            background: linear-gradient(to right, #ef4444, #dc2626);
-        }
+.bg-gradient-to-r.from-green-500.to-green-600 {
+    background: linear-gradient(to right, #22c55e, #16a34a);
+}
 
-        .bg-gradient-to-r.from-green-500.to-green-600 {
-            background: linear-gradient(to right, #22c55e, #16a34a);
-        }
-
-        .saree-background::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
-            opacity: 0.5;
-            pointer-events: none;
-        }
+.saree-background::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+    opacity: 0.5;
+    pointer-events: none;
+}
